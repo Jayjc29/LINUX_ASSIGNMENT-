@@ -1,0 +1,12 @@
+[Unit]
+Description=Showtime - Prints current time every minute to user home directory
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/showtime-writer.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

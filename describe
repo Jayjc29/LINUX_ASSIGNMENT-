@@ -1,0 +1,3 @@
+#!/bin/bash
+# describe: lists all files and folders in current directory
+ls
