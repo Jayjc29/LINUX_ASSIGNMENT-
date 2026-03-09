@@ -31,7 +31,7 @@ sudo systemctl status postfix
 ```bash
 echo "SMTP test mail" | mail -s "Test Mail" user@localhost
 ```
-
+<img src="screenshots/Screenshot from 2026-03-08 15-36-42.png" width="1000" height="900">
 ---
 
 # 2. Create a User Without Sudo Access
@@ -68,6 +68,7 @@ limiteduser is not in the sudoers file.
 ```
 
 ---
+<img src ="screenshots/Screenshot from 2026-03-08 15-38-24.png" width="1000" height="900">
 
 # 3. Create Custom Command `describe`
 
@@ -106,6 +107,7 @@ content3 content4
 This command lists all files and folders in the **current working directory**, and can be executed from anywhere in the system.
 
 ---
+<img src ="screenshots/Screenshot from 2026-03-08 15-38-59.png" width="1000" height="900">
 
 # 4. Find and Uncompress Research File
 
@@ -144,6 +146,7 @@ unzip research.zip
 ```
 
 ---
+<img src ="screenshots/Screenshot from 2026-03-08 15-40-09.png" width="1000" height="900">
 
 # 5. Restrict Permissions on Newly Created Files
 
@@ -178,6 +181,7 @@ Permissions become:
 No read, write, or execute permissions are allowed.
 
 ---
+<img src ="screenshots/Screenshot from 2026-03-08 15-40-41.png" width="1000" height="900">
 
 # 6. Create System Service `showtime`
 
@@ -272,6 +276,7 @@ Output file:
 The file will contain timestamps written every minute.
 
 ---
+<img src ="screenshots/Screenshot from 2026-03-08 15-44-49.png" width="1000" height="900">
 
 # Repository Structure
 
